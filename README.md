@@ -21,7 +21,7 @@ SciPy
 Plotly
 
 ## 📁 Dataset
-📊 Source: [Netflix Dataset]()
+📊 Source: [Netflix Dataset](netflix_titles.csv)
 
 🚀 How It Works
 Load dataset using pandas

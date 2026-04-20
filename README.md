@@ -54,25 +54,32 @@ This project is an automated Exploratory Data Analysis (EDA) pipeline built usin
 ⚙️ Workflow Steps
 1️⃣ Data Importing
 The dataset is loaded using Pandas for further analysis. Any CSV file can be used as input.
+
 2️⃣ Data Cleaning
 Column names are stripped and standardized
 Duplicate records are removed
 Missing values are handled (median for numeric, “Unknown” for categorical)
+
 3️⃣ Data Type Conversion
 Columns are converted into appropriate data types
 Ensures better processing and analysis accuracy
+
 4️⃣ Outlier Detection & Removal
 Z-score method is used to detect outliers
 Extreme values are removed to improve data quality
+
 5️⃣ Trend Analysis
 Data trends are analyzed using value counts and visualization
 Plotly is used to create interactive line charts
+
 6️⃣ Hypothesis Testing
 Statistical tests (T-test) are applied to numeric columns
 Helps identify significant differences between variables
+
 7️⃣ Automated EDA Report (Sweetviz)
 Generates a complete interactive report automatically
 Shows distributions, correlations, missing values, and comparisons
+
 🛠️ Technologies Used
 Python
 Pandas
